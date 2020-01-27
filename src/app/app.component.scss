@@ -1,0 +1,22 @@
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+.example-container {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.ball-img {
+  width: 45px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(255,255,255,1);
+  box-shadow: 0px 0px 7px 1px rgba(255,255,255,1);
+}
+.content-main {
+  background: url('../assets/pitch-horiz-3d.png') no-repeat center / contain;
+}
